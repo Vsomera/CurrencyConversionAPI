@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",   // what the code will compile 
+    "module": "NodeNext", // module system for program 
+    "moduleResolution": "NodeNext",
+    "sourceMap": true, // maps compiled js code back to ts
+    "outDir": "dist", // where js code will be compiled
+  },
+  "include": ["src/**/*"], // tells tsc where to find tsc code
+    // other settings...
+    "ts-node": {
+      "esm": true,
+      "experimentalSpecifierResolution": "node"
+    }
+}
+
+

@@ -4,7 +4,8 @@
     "module": "NodeNext", // module system for program 
     "moduleResolution": "NodeNext",
     "sourceMap": true, // maps compiled js code back to ts
-    "outDir": "dist", // where js code will be compiled
+    "outDir": "./dist", // where js code will be compiled
+    "rootDir": "./src"
   },
   "include": ["src/**/*"], // tells tsc where to find tsc code
     // other settings...
